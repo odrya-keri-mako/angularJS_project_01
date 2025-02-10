@@ -1,0 +1,13 @@
+*:not(input):not(textarea) {
+  -webkit-touch-callout:none !important;
+	  -webkit-user-select:none !important;
+						user-select:none !important;
+					outline-style:none !important;
+}
+.nav-item a.active {
+	text-decoration: underline;
+	cursor: default;
+}
+.fs-sm {
+  font-size: 0.7rem !important;
+}
