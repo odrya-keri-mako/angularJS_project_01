@@ -54,8 +54,8 @@
   .run([
     '$rootScope',
     function($rootScope) {
-      $rootScope.commonTitle = "Üdvözöljük!";
-      console.log('Run...');
+      $rootScope.commonTitle = "welcome!";
+      console.log('Application started...');
     }
   ])
 
